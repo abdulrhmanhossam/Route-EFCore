@@ -18,8 +18,8 @@ public class CourseConfiguration : IEntityTypeConfiguration<Course>
             .HasColumnType("varchar")
             .HasMaxLength(500);
 
-         builder.HasOne(c => c.Topic)
-            .WithMany(t => t.Courses)
-            .HasForeignKey(c => c.TopicId);
+        builder.HasOne(c => c.Topic)
+           .WithMany(t => t.Courses)
+           .HasForeignKey(c => c.TopicId);
     }
 }

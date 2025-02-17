@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using EFCore02.Data;
+using EFCore02.Entities;
+
+class Program
+{
+    static void Main()
+    {
+        
+    }
+}
+
